@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="funcoes.css">
+    <title>Funções</title>
+</head>
+<body>
+    <h1>Multiplicando e Calculando Fatorial</h1><!--título-->
+    <div class="funcoes">
+        <div class="multiplicar">
+            <!--subtítulo-->
+            <h2>Digite os números que deseja multiplicar</h2>
+            <!--inputs para receber do usuário os números-->
+            <div class="inputs">
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+            </div>
+            <!--Botão para enviar e iniciar função-->
+            <input type="button" onclick="multiplicar()" value="Multiplicar">
+            <p id="resul"></p><!--Local para exibir o resultado-->
+        </div>
+        <div class="fatorial">
+            <!--subtítulo-->
+            <h2>Digite o número que deseja descobrir o fatorial</h2>
+            <!--input para receber do usuário os números-->
+            <div class="inputs">
+                <input type="number" id="num3">
+            </div>
+            <!--Botão para enviar e iniciar função-->
+            <input type="button" onclick="fatorial()" value="Fatorial">
+            <p id="resultado"></p><!--Local para exibir o resultado-->
+        </div>
+    </div>
+    <script src="funcoes.js"></script>
+</body>
+</html>
